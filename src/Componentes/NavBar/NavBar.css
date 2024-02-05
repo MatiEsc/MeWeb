@@ -1,0 +1,138 @@
+#navbar {
+    width: 100%;
+    height: 30px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:black;
+    position: sticky;
+    top: 0; 
+    z-index: 1000;
+  }
+  
+  
+  
+  #navbar .brand {
+    padding: 0 30px;
+    margin-top: 5px;
+  }
+  
+  #navbar .brand img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+  }
+  
+  #navbar ul {
+    height: 60px;
+    display: flex;
+  }
+  
+  #navbar ul li {
+    height: 60px;
+    list-style: none;
+  }
+  
+  #navbar ul li a {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 0 15px;
+    position: relative;
+    color: whitesmoke;
+    transition: color 0.3s ease;
+  }
+  
+  #navbar ul li a::before {
+    content: '';
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    width: 0;
+    height: 1px;
+    background-color: rgb(77, 77, 77);
+    transition: width 0.5s ease, left 0.5s ease, background-color 0.3s ease;
+    transform-origin: center;
+  }
+  
+  #navbar ul li a:hover {
+    color: #f5a524;
+  }
+  
+  #navbar ul li a:hover::before {
+    width: 100%;
+    left: 0;
+    background-color: rgb(77, 77, 77);
+  }
+  
+  .nav_toggle {
+    display: none;
+  }
+  
+  
+  /*ESTILOS PARA DISPOSITIVOS PEQUEÑOS */
+  @media (max-width: 768px) {
+    #navbar ul li a {
+      text-decoration: none;
+      margin: 15px 10px;
+      padding: 10px 15px;
+      background-color: rgba(0, 0, 0, 0.5);
+      
+    }
+    #navbar ul li a::before {
+      display: none; 
+    }
+  
+    #navbar .nav_items {
+      position: absolute;
+      top: 45px;
+      left: 0;
+      background: #f8e5da;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: -webkit-fill-available;
+      transform: translateX(-100%);
+      transition: 0.3s ease all;
+    }
+  
+    .nav_items a {
+      text-align: center;
+    }
+  
+    .nav_toggle {
+      display: flex !important;
+      flex-direction: column;
+      margin: 15px;
+    }
+  
+    .nav_toggle span {
+      width: 30px;
+      height: 4px;
+      background: whitesmoke;
+      margin-bottom: 5px;
+      border-radius: 2px;
+      transform-origin: 5px 0px;
+      transition: all 0.2s linear;
+    }
+  
+    .close span {
+      transform: rotate(45deg) translate(0px, 0px);
+    }
+  
+    .close span:nth-child(2) {
+      display: none;
+    }
+  
+    .close span:nth-child(3) {
+      transform: rotate(-45deg) translate(-5px, 1px);
+    }
+  
+    .open {
+      transform: translateX(0) !important;
+    }
+  }
+  
