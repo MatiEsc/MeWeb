@@ -15,47 +15,32 @@
     content: "";
     background-image: url('/img/fondoInicio.webp');
     background-size: cover; /* Ajusta según tus necesidades */
-    opacity: 0.8;
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: -1;
-
 }
 
 
 
-
-
-
-.fondo h1, .fondo h2, .fondo h3 {
-    opacity: 1; /* Ajusta según tus necesidades */
-    transition: opacity 0.5s ease-in-out;
-    z-index: 1;
-    background: none;
-}
 
 
 /* Establece estilos generales para los encabezados */
 h1, h2 {
     margin: 0; /* Elimina el margen por defecto */
     color: whitesmoke;
-    background: none;
 }
 
 h1 {
     opacity: 1; /* Hace que h1 siempre sea visible */
     transition: opacity 0.5s ease-in-out; /* Añade una transición suave de opacidad */
-    background: none;
 }
 
 h2 {
     opacity: 1; /* Hace que h2 siempre sea visible */
     transition: opacity 0.5s ease-in-out; /* Añade una transición suave de opacidad */
     margin-top: 20px;
-    background: none;
 }
 
 
