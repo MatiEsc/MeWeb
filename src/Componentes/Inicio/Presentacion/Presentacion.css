@@ -15,13 +15,13 @@
     content: "";
     background-image: url('/img/fondoInicio.webp');
     background-size: cover; /* Ajusta según tus necesidades */
-    opacity: 1;
+    opacity: 0.8;
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: 1; /* Ajusta el z-index para que esté delante del contenido */
+
 }
 
 
