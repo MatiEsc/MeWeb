@@ -15,15 +15,26 @@
     content: "";
     background-image: url('/img/fondoInicio.webp');
     background-size: cover; /* Ajusta según tus necesidades */
+    opacity: 0.8;
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
+    z-index: -1;
+
 }
 
 
 
+
+
+
+.fondo h1, .fondo h2, .fondo h3 {
+    opacity: 1; /* Ajusta según tus necesidades */
+    transition: opacity 0.5s ease-in-out;
+    z-index: 1;
+}
 
 
 /* Establece estilos generales para los encabezados */
