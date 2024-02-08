@@ -40,15 +40,14 @@
 h1, h2 {
     margin: 0; /* Elimina el margen por defecto */
     color: whitesmoke;
+    opacity: 1; /* Mueve la opacidad aquí para asegurar que los títulos no sean afectados */
 }
 
 h1 {
-    opacity: 1; /* Hace que h1 siempre sea visible */
     transition: opacity 0.5s ease-in-out; /* Añade una transición suave de opacidad */
 }
 
 h2 {
-    opacity: 1; /* Hace que h2 siempre sea visible */
     transition: opacity 0.5s ease-in-out; /* Añade una transición suave de opacidad */
     margin-top: 20px;
 }
