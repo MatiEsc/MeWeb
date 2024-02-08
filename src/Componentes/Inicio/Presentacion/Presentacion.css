@@ -42,17 +42,20 @@
 h1, h2 {
     margin: 0; /* Elimina el margen por defecto */
     color: whitesmoke;
+    background: none;
 }
 
 h1 {
     opacity: 1; /* Hace que h1 siempre sea visible */
     transition: opacity 0.5s ease-in-out; /* Añade una transición suave de opacidad */
+    background: none;
 }
 
 h2 {
     opacity: 1; /* Hace que h2 siempre sea visible */
     transition: opacity 0.5s ease-in-out; /* Añade una transición suave de opacidad */
     margin-top: 20px;
+    background: none;
 }
 
 
