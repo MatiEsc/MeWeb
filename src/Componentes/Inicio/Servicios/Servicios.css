@@ -13,7 +13,7 @@
     bottom: 0;
     background-image: url('/img/servicios.webp');
     background-size: cover;
-    opacity: 1; /* Ajusta el valor según tus preferencias, va de 0 a 1 */
+    opacity: 0.8; /* Ajusta el valor según tus preferencias, va de 0 a 1 */
     z-index: -1;
 }
 
