@@ -6,6 +6,7 @@
     justify-content: space-between;
     align-items: center;
     background-color:black;
+    background-color: rgba(0, 0, 0, 0.8);
     position: sticky;
     top: 0; 
     z-index: 1000;
@@ -15,13 +16,14 @@
   
   #navbar .brand {
     padding: 0 30px;
-    margin-top: 5px;
+    margin-top: 25px;
   }
   
   #navbar .brand img {
     width: 90px;
     height: 90px;
     border-radius: 50%;
+    opacity: 1; /* Asegurar que la imagen no tenga opacidad */
   }
   
   #navbar ul {
@@ -72,7 +74,13 @@
     display: none;
   }
   
-  
+  .info{
+    background: rgb(196,7,25);
+    background: linear-gradient(90deg, rgba(196,7,25,1) 0%, rgba(110,8,13,1) 50%, rgba(196,7,25,1) 100%); 
+    margin-top: 0;
+    text-align: center;
+    color: white;
+  }
   /*ESTILOS PARA DISPOSITIVOS PEQUEÑOS */
   @media (max-width: 768px) {
     #navbar ul li a {

@@ -23,6 +23,8 @@ const NavBar = () => {
   }, []); 
 
   return (
+    <>
+    <p className="info">Diseño Web - Landing Page - Tienda Online - Publicidad Digital </p>
     <nav id="navbar">
       <Link to="/" className="brand">
         <img src="/img/logo.jpeg" alt="logo MeWeb" />
@@ -53,6 +55,7 @@ const NavBar = () => {
       </div>  
 
     </nav>
+    </>
   );
 };
 

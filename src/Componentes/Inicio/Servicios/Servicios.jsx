@@ -38,7 +38,7 @@ const Servicios = () => {
         </div>
       </section>
 
-      {/* Puedes agregar más cards según sea necesario */}
+
     </div>
   );
 };

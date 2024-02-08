@@ -1,8 +1,7 @@
-/* Servicios.css */
-
 .fondoServicios {
     position: relative;
     background-size: cover;
+    height: 90vh;
 }
 
 .fondoServicios::before {
@@ -12,7 +11,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url('/img/servicios.jpg');
+    background-image: url('/img/servicios.webp');
     background-size: cover;
     opacity: 1; /* Ajusta el valor según tus preferencias, va de 0 a 1 */
     z-index: -1;
@@ -23,7 +22,7 @@
     font-size: 2.5em; /* Tamaño de la fuente */
     font-weight: bold; /* Peso de la fuente */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra del texto */
-    margin-bottom: 20px; /* Espacio inferior */
+    margin-bottom: 10px; /* Espacio inferior */
     margin: 20px;
     text-align: center;
 }
@@ -48,7 +47,7 @@
     margin: 20px;
     padding: 20px;
     text-align: left;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     flex: 0 0 calc(20% - 40px); /* Calcula el ancho para que haya tres en una fila */
 }
 

@@ -1,0 +1,47 @@
+.fondoResponsive {
+    background: linear-gradient(to right, #333 5%, white);
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .texto {
+    text-align: left;
+    color: white;
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+  
+  .texto h2 {
+    margin-left: 10px;
+    text-align: center;
+  }
+  
+  .texto h3 {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  
+  .texto p {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .imagen {
+    overflow: hidden;
+    margin-left: auto; /* Hace que la imagen esté alineada a la derecha */
+  }
+  
+  .imagen img {
+    max-width: 80%;
+    height: auto;
+    display: block;
+    border: none;
+    border-radius: 2%;
+    padding: 0;
+    margin: 0;
+    background: white;
+  }
+  

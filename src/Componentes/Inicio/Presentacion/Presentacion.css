@@ -11,9 +11,9 @@
 
 .fondoPresentacion::before {
     content: "";
-    background-image: url('/img/fondoInicio.jpeg');
+    background-image: url('/img/fondoInicio.webp');
     background-size: cover; /* Ajusta según tus necesidades */
-    opacity: 0.5;
+    opacity: 0.8;
     position: absolute;
     top: 0;
     left: 0;

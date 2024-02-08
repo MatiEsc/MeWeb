@@ -1,0 +1,119 @@
+.trabajemosJuntos{
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(49,40,40,1) 50%, rgba(0,0,0,1) 100%); 
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh; /* Ajusta la altura para que ocupe toda la altura de la pantalla */
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.whatsapp-link {
+  display: inline-block;
+  color: #25d366; /* Color de WhatsApp */
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.whatsapp-link:hover {
+  text-decoration: underline;
+}
+
+.footer {
+    background-color: #000; /* Fondo negro */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    height: 60vh; /* Ajusta la altura para que ocupe toda la altura de la pantalla */
+    border-top: 1px solid #ccc; /* Línea superior de 2 píxeles en color gris */
+    margin-left: 20px; /* Ajusta el margen izquierdo */
+    margin-right: 20px; /* Ajusta el margen derecho */
+  }
+  
+
+ 
+  .navegacion {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navegacion li {
+    margin-bottom: 8px; 
+  }
+  
+  .navegacion a {
+    text-decoration: none;
+    color: whitesmoke;
+  }
+  
+  .navegacion li a:hover {
+    color: #f5a524; /* Corrige la clase a .navegacion li a:hover */
+  }
+  
+  
+  .footer-columna {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    flex: 1; 
+  }
+
+  .footer-columna a {
+    text-decoration: none;
+    color: whitesmoke;
+  }
+
+  .footer-columna a:hover {
+    color: #f5a524; /* Corrige la clase a .navegacion li a:hover */
+  }
+  
+  
+  .footer-division {
+    width: 80%;
+    border-top: 1px solid rgba(221, 221, 221, 0.5); /* Estilo para el borde superior */
+    border-right: none; /* Desactivar el borde derecho */
+    border-bottom: none; /* Desactivar el borde inferior */
+    border-left: none; /* Desactivar el borde izquierdo */
+  }
+  
+      
+  .copyright-section {
+    text-align: center;
+    font-size: 14px;
+    height: 20vh;
+  }
+   
+  
+  
+  .iconos-redes {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .iconos-redes a {
+    color: whitesmoke;
+    font-size: 30px;
+    transition: color 0.3s ease; /* Agrega una transición para suavizar el cambio de color */
+  }
+  
+  .iconos-redes a:hover {
+    color: #f5a524; /* Cambia el color al hacer hover en los enlaces */
+  }
+  
+  
+    
+  
